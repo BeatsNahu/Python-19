@@ -1,0 +1,16 @@
+Km = float(input('Enter the total kilometers traveled:'))
+Price = float(input('Enter the price of gas:'))
+Money = float(input('Enter the money used during the trip:'))
+Time = float(input('Enter the duration of the trip in hours:'))
+
+
+L1Km = round((Money/Km),3)
+Litro = float(Money/Price)
+E1Km = round((Litro/Km),3)
+Consum = round(((Money/Price)*100/Km),2)
+Euro = round((Money*100/Km),2)
+Vel_med = round((Km/Time), 2)
+Vel_MS = round((Vel_med*1000/3600), 2)
+print('During the trip his gasoline and money expended for 100Km was:', Consum,'L','//', Euro,'€' )
+print('During the trip his gasoline and money expended for 1Km was:', E1Km,'L','//', L1Km,'€' )
+print('Your velocity mid was:', Vel_med, 'Km/h²', 'or', Vel_MS, 'm/s²')
