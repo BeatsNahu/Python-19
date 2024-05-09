@@ -5,5 +5,5 @@ print('Enter the final price')
 Final = float(input())
 
 Bills = (Final*100)/inicial
-Discount = 100-Bills
+Discount = round((100-Bills),2)
 print('You get a discount of', Discount,'%')

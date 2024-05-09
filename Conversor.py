@@ -1,4 +1,4 @@
 print('Enter a distance in Km')
 km =float(input())
 valor = 1000
-print('El valor dado equivale:', valor*km, 'metros')
+print('The given value is equivalent to:', valor*km, 'metros')
